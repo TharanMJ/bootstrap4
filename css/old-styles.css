@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #6827C3;
+}
+
+.jumbotron {
+    background-color: #966BCF;
+    color: floralwhite;
+    margin: 0px auto;
+    font-weight: 400;
+    padding: 130px 50px 80px 50px;
+}
+
+.carousel {
+    background:#6827C3;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    top: 75px;
+    
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.footer {
+    background-color: #B6A7CB;
+    color: #000000;
+    font-weight: 400;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.row-content {
+    margin: 0px auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+
+
