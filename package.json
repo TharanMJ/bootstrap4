@@ -9,7 +9,7 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "watch:all": "concurrently \"npm run watch:scss\" \"npm run lite\"",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* --out-dir='dist/img'",
@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^6.4.0",
     "cssmin": "^0.4.3",
     "htmlmin": "0.0.7",
     "lite-server": "^2.3.0",
